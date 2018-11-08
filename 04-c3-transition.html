@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>过渡</title>
+		<style type="text/css">
+			.mybox {
+				width: 100px;
+				height: 100px;
+				background-color: #0000FF;
+				margin-top: 50px;
+				transition: box-shadow 2s,transform 2s,position 2s,bottom 5s;
+				transition: transform 2s;
+			}
+			.mybox:hover {
+				/* transform: scale(2,2); */
+				box-shadow: 0px 6px 8px rgba(0,0,0,0.2),0px 8px 10px rgba(0,0,0,0.18);
+				position: relative;
+				bottom: 10px;
+				/* transform: translateX(30px) translateY(20px); */
+				/* transform: rotate(45deg); */
+				transform: scale(0.2,2);
+				/* transform: skew(45deg,30deg); */
+				
+			}
+			
+		</style>
+		
+	</head>
+	<body>
+		<!-- 过渡样式属性，效果，时间 -->
+		<div class="mybox">
+			
+		</div>
+		
+		
+		
+	</body>
+</html>
